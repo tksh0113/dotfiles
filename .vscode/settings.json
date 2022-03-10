@@ -1,0 +1,200 @@
+{
+  // ===================
+  // General
+  // ===================
+  "window.restoreWindows": "one",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "window.zoomLevel": -2,
+  "breadcrumbs.enabled": true,
+  "editor.detectIndentation": true,
+  "editor.renderLineHighlight": "all",
+  "editor.glyphMargin": false,
+  "editor.roundedSelection": true,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.minimap.enabled": false,
+  "editor.wordSeparators": "`~!#%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.renderControlCharacters": true,
+  "editor.insertSpaces": true,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.renderIndentGuides": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 5,
+  "editor.emptySelectionClipboard": false,
+  "editor.links": false,
+  "editor.matchBrackets": "never",
+  "editor.mouseWheelScrollSensitivity": 3,
+  "editor.mouseWheelZoom": false,
+  "editor.suggestFontSize": 12,
+  "editor.suggestLineHeight": 20,
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.letterSpacing": 0,
+  "git.ignoreLimitWarning": true,
+  "workbench.activityBar.visible": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.showTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "workbench.panel.defaultLocation": "right",
+  "editor.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "Jetbrains mono",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.foreground": "#00e8dc",
+    "statusBar.noFolderForeground": "#00e8dc",
+    "statusBar.border": "#00e8dc",
+    "sideBarSectionHeader.foreground": "#00e8dc",
+    "sideBar.border": "#00e8dc",
+    "list.activeSelectionForeground": "#00e8dc",
+    "list.focusForeground": "#00e8dc",
+    "list.hoverForeground": "#00e8dc",
+    "button.foreground": "#00e8dc",
+    "activityBar.foreground": "#00e8dc",
+    "activityBar.border": "#00e8dc",
+    "activityBarBadge.background": "#00e8dc",
+    "activityBarBadge.foreground": "#333333",
+    "editor.lineHighlightBackground": "#333333",
+    "scrollbarSlider.background": "#00e8dc",
+    "scrollbarSlider.hoverBackground": "#00ccffcc",
+    "scrollbar.shadow": "#00e8dc",
+    "tab.activeBorder": "#00e8dc",
+    "tab.activeForeground": "#00e8dc",
+    "tab.hoverForeground": "#00e8dc",
+    "editorLineNumber.activeForeground": "#00e8dc",
+    "panel.border": "#00e8dc",
+    "panelTitle.activeBorder": "#00e8dc",
+    "panelTitle.activeForeground": "#00e8dc",
+    "editorGroup.border": "#00e8dc",
+    "editorCursor.foreground": "#fff",
+    "editor.background":"#282936",
+    "terminal.foreground":"#E9E9F4",
+    "terminalCursor.background":"#E9E9F4",
+    "terminalCursor.foreground":"#E9E9F4",
+    "terminal.ansiBlack":"#282936",
+    "terminal.ansiBlue":"#62D6E8",
+    "terminal.ansiBrightBlack":"#626483",
+    "terminal.ansiBrightBlue":"#62D6E8",
+    "terminal.ansiBrightCyan":"#A1EFE4",
+    "terminal.ansiBrightGreen":"#EBFF87",
+    "terminal.ansiBrightMagenta":"#B45BCF",
+    "terminal.ansiBrightRed":"#EA51B2",
+    "terminal.ansiBrightWhite":"#F7F7FB",
+    "terminal.ansiBrightYellow":"#00F769",
+    "terminal.ansiCyan":"#A1EFE4",
+    "terminal.ansiGreen":"#EBFF87",
+    "terminal.ansiMagenta":"#B45BCF",
+    "terminal.ansiRed":"#EA51B2",
+    "terminal.ansiWhite":"#E9E9F4",
+    "terminal.ansiYellow":"#00F769"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoGuessEncoding": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true
+  },
+  "files.exclude": {
+    "**/*.pyc": true,
+    ".nyc_output": true,
+    "obj": true,
+    "bin": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.obj": true,
+    "**/*.ilk": true,
+    "**/*.pdb": true,
+    "**/*.tlog": true,
+    "**/*.idb": true,
+    "**/*.dll": true
+  },
+  "extensions.autoUpdate": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.glyphMargin": true,
+  // ===================
+  // Extentions
+  // ===================
+  /* Shell */
+  "terminal.integrated.shell.osx": "zsh",
+  // "terminal.explorerKind": "external",
+  // "terminal.external.osxExec": "iTerm.app",
+
+  /* HTML */
+  "html.format.extraLiners": "head, body, /html",
+  "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p",
+  "html.format.unformatted": null,
+
+  /* JavaScript */
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "vetur.format.enable": false,
+  "eslint.format.enable": true,
+
+    /* Python */
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+  },
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+  "python.formatting.provider": "black",
+  "python.linting.enabled":true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.lintOnSave":true,
+  "python.showStartPage": false,
+  "python.languageServer": "Pylance",
+  // "python.venvPath": ".venv",
+
+  /* PHP  */
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+  },
+  "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+	"php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.formatHtml": false,
+  "php-cs-fixer.documentFormattingProvider": true,
+  "php-cs-fixer.allowRisky": false, // Not to allow risky formatting
+  "phpcs.executablePath": "./vendor/bin/phpcs", // Could not use ${workspaceFolder}
+  "phpcs.standard": "./phpcs.xml", // Could not use ${workspaceFolder}
+  "phpcs.enable": true,
+
+  /* Go */
+  "go.useLanguageServer": true,
+  "go.alternateTools": {
+    "go-langserver": "gopls"
+  },
+  "go.lintTool":"golangci-lint",
+  "go.lintFlags": [
+      "--config=${workspaceFolder}/.golangci-lint.yaml",
+      "--fast"
+  ],
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+}

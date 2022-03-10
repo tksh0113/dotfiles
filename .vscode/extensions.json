@@ -1,0 +1,43 @@
+{
+    "recommendations": [
+        /* General */
+        "dracula-theme.theme-dracula",
+        "PKief.material-icon-theme",
+        "Gruntfuggly.activitusbar",
+        "saikou9901.evilinspector",
+        "shardulm94.trailing-spaces",
+        "formulahendry.code-runner",
+        "MS-CEINTL.vscode-language-pack-ja",
+
+        /* Go */
+        "golang.go",
+
+        /* Python */
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+
+        /* PHP */
+        "bmewburn.vscode-intelephense-client",
+        "junstyle.php-cs-fixer",
+        "ikappas.phpcs",
+        "neilbrayfield.php-docblocker",
+        "xdebug.php-debug",
+
+        /* Vue.js */
+        "octref.vetur",
+        "dbaeumer.vscode-eslint",
+        "dariofuzinato.vue-peek",
+
+        /* HTML CSS */
+        "abusaidm.html-snippets",
+        "zignd.html-css-class-completion",
+        "mkaufman.htmlhint",
+        "pranaygp.vscode-css-peek",
+
+        /* Others */
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "ms-kubernetes-tools.vscode-kubernetes-tools"
+    ]
+}

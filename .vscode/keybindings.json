@@ -1,0 +1,15 @@
+
+[
+  {
+    "key": "cmd+q",
+    "command": "-workbench.action.quit"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+shift+d",
+    "command": "workbench.action.splitEditorDown"
+  }
+]
