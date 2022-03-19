@@ -136,6 +136,7 @@ fi
 git config --global user.useConfigOnly true
 git config --global --unset user.email
 git config --global --unset user.name
+git config --global core.quotepath false
 
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
