@@ -8,6 +8,7 @@
         "shardulm94.trailing-spaces",
         "formulahendry.code-runner",
         "MS-CEINTL.vscode-language-pack-ja",
+        "ms-vscode-remote.vscode-remote-extensionpack",
 
         /* Go */
         "golang.go",
@@ -34,6 +35,12 @@
         "zignd.html-css-class-completion",
         "mkaufman.htmlhint",
         "pranaygp.vscode-css-peek",
+
+        /* Markdown */
+        "yzhang.markdown-all-in-one",
+        "yzane.markdown-pdf",
+        "marp-team.marp-vscode",
+        "DavidAnson.vscode-markdownlint",
 
         /* Others */
         "ms-azuretools.vscode-docker",
